@@ -1,0 +1,14 @@
+<p>assignment-input-data-blinding works!</p>
+
+<input
+  type="text"
+  class="form-control"
+  [(ngModel)]="username"
+>
+
+<h4>Username is : {{username}}</h4>
+
+<button
+  class="btn btn-danger"
+  [disabled]="checkDisabled()"
+  (click)="reset()"> Submit</button>
