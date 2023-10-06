@@ -8,6 +8,7 @@ import { ServersComponent } from './servers/servers.component';
 import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import { AssignmentInputDataBlindingComponent } from './assignment-input-data-blinding/assignment-input-data-blinding.component';
+import { Assignment3Component } from './assignment3/assignment3.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AssignmentInputDataBlindingComponent } from './assignment-input-data-bl
     ServersComponent,
     WarningAlertComponent,
     SuccessAlertComponent,
-    AssignmentInputDataBlindingComponent
+    AssignmentInputDataBlindingComponent,
+    Assignment3Component
   ],
   imports: [
     BrowserModule,
