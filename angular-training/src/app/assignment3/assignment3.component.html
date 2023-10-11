@@ -1,9 +1,0 @@
-<p>assignment3 works!</p>
-
-<button (click)="onPClick()">Display detail</button>
-
-<p *ngFor="let x of clickLog; let i = index"
-  [ngStyle]="{backgroundColor: i>5 ? 'blue' : 'transparent'}"
-  [ngClass]="{logItem : i>5}"
-
-> {{x}} is added</p>
